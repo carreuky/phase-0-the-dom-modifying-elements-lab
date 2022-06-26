@@ -1,7 +1,8 @@
-const removeMain = document.getElementById('main');
-removeMain.remove();
-
-const newHeader = document.createElement("h1");
-newHeader.id = "victory";
-newHeader.textContent = "Newton is the champion";
-newHeader.className = "victorious";
+function removeMain() {
+    const main = document.getElementById("main");
+    main.remove();
+  }
+  removeMain();
+  const newHeader = document.createElement("h1");
+  newHeader.id = "victory";
+  newHeader.innerHTML = "Karis is the champion";
